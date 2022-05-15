@@ -7,7 +7,8 @@
 #
 #*******************************************************************************
 # -*- coding: utf-8 -*-
-import StringIO
+import io
+from io import StringIO 
 import json
 import requests
 import logging
